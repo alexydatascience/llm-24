@@ -86,6 +86,11 @@ What's the score for the top ranking result?
 
 Look at the `_score` field.
 
+### Answer:
+```bash
+84.05
+```
+
 ## Q4. Filtering
 
 Now let's only limit the questions to `machine-learning-zoomcamp`.
@@ -96,6 +101,11 @@ Return 3 results. What's the 3rd question returned by the search engine?
 * How do I copy files from a different folder into docker container’s working directory?
 * How do Lambda container images work?
 * How can I annotate a graph?
+
+### Answer:
+```bash
+How do I copy files from a different folder into docker container’s working directory?
+```
 
 ## Q5. Building a prompt
 
@@ -131,6 +141,11 @@ What's the length of the resulting prompt? (use the `len` function)
 * 1962
 * 2462
 
+### Answer:
+```bash
+1462
+```
+
 ## Q6. Tokens
 
 When we use the OpenAI Platform, we're charged by the number of 
@@ -159,6 +174,11 @@ Note: to decode back a token into a word, you can use the `decode_single_token_b
 
 ```python
 encoding.decode_single_token_bytes(63842)
+```
+
+### Answer:
+```bash
+322
 ```
 
 ## Bonus: generating the answer (ungraded)
